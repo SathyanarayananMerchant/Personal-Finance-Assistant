@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Search</title>
+</head>
+<body>
+  <h2>Search Students by Department</h2>
+
+  <input type="text" id="department" placeholder="Enter department" />
+  <button onclick="search()">Search</button>
+
+  <h3>Results:</h3>
+  <ul id="results"></ul>
+
+  <script>
+    function search() {
+      const department = document.getElementById("department").value;
+
+      fetch("http://localhost:5500/search", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ department })
+      })
+      .then(res => res.json())
+      .then(data => {
+        const resultsList = document.getElementById("results");
+        resultsList.innerHTML = "";  // Clear previous
+
+        if (data.length === 0) {
+          resultsList.innerHTML = "<li>No students found.</li>";
+        } else {
+          data.forEach(student => {
+            const li = document.createElement("li");
+            li.innerText = `${student.name} (Enrolled: ${student.enrollment_year})`;
+            resultsList.appendChild(li);
+          });
+        }
+      })
+      .catch(err => {
+        console.error("Error:", err);
+      });
+    }
+  </script>
+</body>
+</html>

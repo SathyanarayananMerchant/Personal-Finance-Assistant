@@ -1,0 +1,209 @@
+{
+    "ocr_type": "receipts",
+    "request_id": "P_45.249.80.100_m3hopjy4_heo",
+    "ref_no": "my_ref_123",
+    "file_name": "therma.jpg",
+    "request_received_on": 1731611385148,
+    "success": true,
+    "image_width": 503,
+    "image_height": 1773,
+    "image_rotation": 0,
+    "recognition_completed_on": 1731611385689,
+    "receipts": [
+        {
+            "merchant_name": "GUJARAT FREIGHT TOOLS",
+            "merchant_address": "Main Street Sector 5\nMumbai surburban, Dadra & Nagar\nHaveli and Daman & Diu-396210",
+            "merchant_phone": null,
+            "merchant_website": null,
+            "merchant_tax_reg_no": null,
+            "merchant_company_reg_no": null,
+            "region": null,
+            "mall": null,
+            "country": "IN",
+            "receipt_no": null,
+            "date": "2024-03-20",
+            "time": null,
+            "items": [
+                {
+                    "amount": 199.0,
+                    "category": null,
+                    "description": "Basic Knit Top SS x1189.52",
+                    "flags": "",
+                    "qty": null,
+                    "remarks": null,
+                    "tags": null,
+                    "unitPrice": null
+                },
+                {
+                    "amount": 189.52,
+                    "category": null,
+                    "description": "Rate:",
+                    "flags": "",
+                    "qty": null,
+                    "remarks": null,
+                    "tags": null,
+                    "unitPrice": null
+                },
+                {
+                    "amount": 199.0,
+                    "category": null,
+                    "description": "Knit Top SS x1 NOS189.52",
+                    "flags": "",
+                    "qty": null,
+                    "remarks": null,
+                    "tags": null,
+                    "unitPrice": null
+                },
+                {
+                    "amount": 189.52,
+                    "category": null,
+                    "description": "Rate:",
+                    "flags": "",
+                    "qty": null,
+                    "remarks": null,
+                    "tags": null,
+                    "unitPrice": null
+                },
+                {
+                    "amount": 379.04,
+                    "category": null,
+                    "description": "Taxable Amount",
+                    "flags": "",
+                    "qty": null,
+                    "remarks": null,
+                    "tags": null,
+                    "unitPrice": null
+                },
+                {
+                    "amount": 18.96,
+                    "category": null,
+                    "description": "Add: IGST",
+                    "flags": "",
+                    "qty": null,
+                    "remarks": null,
+                    "tags": null,
+                    "unitPrice": null
+                }
+            ],
+            "currency": "INR",
+            "total": 398.0,
+            "subtotal": null,
+            "tax": 18.96,
+            "service_charge": null,
+            "tip": null,
+            "payment_method": null,
+            "payment_details": null,
+            "credit_card_type": null,
+            "credit_card_number": null,
+            "ocr_text": "           GUJARAT FREIGHT TOOLS\n             123 Sunrise Apartment\n              Main Street Sector 5\n        Mumbai surburban, Dadra & Nagar\n        Haveli and Daman & Diu-396210\n          GSTIN: 26CORPP3939 N1ZA\n                 TAX INVOICE\n INVOICE#: 55                DATE: 20-Mar-2024\n                   BILLED TO\n Name Ronak Panchal\n Items\n                     Taxable\n HSN                                 Total\n                      + GST\n Rate\n Basic Knit Top SS x1 189.52             199.00\n NOS                 + 5.00%\n Size: 5-6 Y\n HSN: 6109\n Rate: 189.52\n Knit Top SS x1 NOS   189.52             199.00\n Size: 5-6 Y         + 5.00%\n HSN: 6109\n Rate: 189.52\n                  SUMMARY\n Taxable Amount                         379.04\n Add: IGST                               18.96\n Total Tax                               18.96\n Total Amount After Tax                 398.00\n Grand Total:                           398.00\n                 Pay using UPI",
+            "ocr_confidence": 97.53,
+            "width": 472,
+            "height": 1113,
+            "avg_char_width": 9.8792,
+            "avg_line_height": 15.3448,
+            "conf_amount": 83,
+            "source_locations": {
+                "date": [
+                    [
+                        {
+                            "y": 266,
+                            "x": 304
+                        },
+                        {
+                            "y": 266,
+                            "x": 495
+                        },
+                        {
+                            "y": 282,
+                            "x": 495
+                        },
+                        {
+                            "y": 282,
+                            "x": 304
+                        }
+                    ]
+                ],
+                "total": [
+                    [
+                        {
+                            "y": 932,
+                            "x": 418
+                        },
+                        {
+                            "y": 932,
+                            "x": 487
+                        },
+                        {
+                            "y": 948,
+                            "x": 487
+                        },
+                        {
+                            "y": 948,
+                            "x": 418
+                        }
+                    ]
+                ],
+                "merchant_name": [
+                    [
+                        {
+                            "y": 71,
+                            "x": 116
+                        },
+                        {
+                            "y": 71,
+                            "x": 385
+                        },
+                        {
+                            "y": 86,
+                            "x": 385
+                        },
+                        {
+                            "y": 86,
+                            "x": 116
+                        }
+                    ]
+                ],
+                "doc": [
+                    [
+                        {
+                            "y": 14,
+                            "x": -8
+                        },
+                        {
+                            "y": 14,
+                            "x": 510
+                        },
+                        {
+                            "y": 1238,
+                            "x": 510
+                        },
+                        {
+                            "y": 1238,
+                            "x": -8
+                        }
+                    ]
+                ],
+                "tax": [
+                    [
+                        {
+                            "y": 839,
+                            "x": 11
+                        },
+                        {
+                            "y": 841,
+                            "x": 104
+                        },
+                        {
+                            "y": 858,
+                            "x": 104
+                        },
+                        {
+                            "y": 856,
+                            "x": 11
+                        }
+                    ]
+                ]
+            }
+        }
+    ]
+}
